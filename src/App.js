@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Counter/>}></Route>
-        <Route path='/task1' element={<Counter/>}></Route>
-        <Route path='/task2' element={<Calculator/>}></Route>
-        <Route path='/task3' element={<ColorPicker/>}></Route>
-        <Route path='/task4' element={<AgeCalculator/>}></Route>
-        <Route path='/task5' element={<Display/>}></Route>
+        <Route path='/' element={<Counter/>}/>
+        <Route path='/task1' element={<Counter/>}/>
+        <Route path='/task2' element={<Calculator/>}/>
+        <Route path='/task3' element={<ColorPicker/>}/>
+        <Route path='/task4' element={<AgeCalculator/>}/>
+        <Route path='/task5' element={<Display/>}/>
       </Routes>
       </div>
   );
