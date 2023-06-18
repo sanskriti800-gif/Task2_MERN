@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -13,11 +13,11 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="/task1">TASK1</Nav.Link>
-                            <Nav.Link href="/task2">TASK2</Nav.Link>
-                            <Nav.Link href="/task3">TASK3</Nav.Link>
-                            <Nav.Link href="/task4">TASK4</Nav.Link>
-                            <Nav.Link href="/task5">TASK5</Nav.Link>
+                            <NavLink href="/task1">TASK1</NavLink>
+                            <NavLink href="/task2">TASK2</NavLink>
+                            <NavLink href="/task3">TASK3</NavLink>
+                            <NavLink href="/task4">TASK4</NavLink>
+                            <NavLink href="/task5">TASK5</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
